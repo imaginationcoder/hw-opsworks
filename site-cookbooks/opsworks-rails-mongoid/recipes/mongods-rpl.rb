@@ -47,8 +47,7 @@ template mongods_rpl_filepath do
 end
 
 execute "setup_mongods_rpl" do
-  Chef::Log.info("##123#### #{mongods_rpl_filepath}")
-  command "mongo < #{mongods_rpl_filepath}"
+  command "mongo #{mongods_rpl_filepath}"
   action :run
 end
 
