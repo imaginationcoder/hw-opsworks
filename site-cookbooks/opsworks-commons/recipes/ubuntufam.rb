@@ -21,7 +21,8 @@ end
 packages = [
   "libcurl3",
   "libcurl3-gnutls",
-  "libcurl4-openssl-dev"
+  "libcurl4-openssl-dev",
+  "ffmpeg"
 ]
 
 packages.each do |p|
