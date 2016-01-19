@@ -13,4 +13,4 @@ cookbook "opsworks-rails-mongoid", git: "https://github.com/imaginationcoder/hw-
 
 cookbook "opsworks_delayed_job", git: "https://imaginationcoder@bitbucket.org/maisaengineering/opsworks_delayed_job.git"
 cookbook "magic_shell", "~> 1.0.0"
-cookbook 'ffmpeg', '~> 0.4.4'
+
