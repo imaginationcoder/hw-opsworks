@@ -14,3 +14,4 @@ depends 'imagemagick'
 
 depends 'aws'
 depends 'magic_shell'
+depends 'ffmpeg'

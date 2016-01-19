@@ -1,5 +1,0 @@
-# default['wkhtmltopdf']['mirror_url']  = "http://downloads.sourceforge.net/project/wkhtmltopdf/archive/#{node['wkhtmltopdf']['version']}/#{node['wkhtmltopdf']['archive']}"
-default[:ffmpeg][:install_method] = "source"
-default[:ffmpeg][:version] = "2.8.5"
-default[:ffmpeg][:source_url] = "http://ffmpeg.org/releases/ffmpeg-#{node[:ffmpeg][:version]}.tar.gz"
-default[:ffmpeg][:source_prefix] = "/opt"
